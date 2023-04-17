@@ -7,14 +7,14 @@
     <title>La Luz</title>
 </head>
 
-<body>
+<body style="background-color: rgb(255, 250, 164)" >
 
 <!-- Navegacion -->
 <nav class="text-center justify-content-center align-self-center">
     <div class="background-overlay text-white py-5">
-        <h1 style="color: rgb(11, 11, 140); font-size: 300%; 
-        text-align: center; background-color: rgb(56, 126, 6);">
-        <a href="index.html">EL BARRIO</a>
+        <h1 style="font-size: 200%; text-align: center;
+        background-color: rgb(220, 213, 14);">
+        <a href="index.html" style="color: black" >EL BARRIO</a>
         </h1>
     </div>
 </nav>
@@ -22,22 +22,145 @@
     <!-- Cabecera -->
 <header class="main-header" style="text-align: center;" >
     
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center justify-content-center align-self-center">
-            <h1 style="color: rgb(11, 11, 140);" >LOS ELECTRICISTAS</h1>
-            <p>Podemos alimentar nuestros electrodomesticos y bombillas LED</p>
-            <a href="img/ondasSalud.pdf" >
+    <div class="container">
+      <div class="row">
+        
+        <h1 style="color: rgb(158, 149, 22);font-size: 260%;">PANELES SOLARES</h1>
+        <img src="img/ele/greenPower.png" alt="space book" style="width:304px;height:203px">
+        <h3 style="color: rgb(171, 155, 13);">Podemos alimentar nuestros electrodomesticos y bombillas LED</h3>
+        <img src="img/ele/instalacion-fotovoltaica.jpg" alt="space book" style="width:309px;height:186px">
+
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+          <h2>0. COMPONENTES DE UNA INSTALACIÓN SOLAR FOTOVOLTAICA</h2>
+          <p>
+            <b>Aprenderemos a:</b>
+            <ul>
+              <li>
+                Clasificar los tipos de instalaciones de energía solar.
+              </li>
+              <li>
+                Identificar los principales parámetros de los paneles solares.
+              </li>
+              <li>
+                Describir el funcionamiento de las baterías.
+              </li>
+              <li>
+                Describir el funcionamiento del inversor y del regulador.
+              </li>
+            </ul> 
+            <b>Y estudiaremos:</b>
+            <ul>
+              <li>
+                La célula solar y su funcionamiento.
+              </li>
+              <li>
+                Condiciones de funcionamiento de los tipos de baterías.
+              </li>
+              <li>
+                Características y modo de empleo del inversor y del regulador, y sus tipos.
+              </li>
+            </ul>           
+          </p>
+          <img src="img/ele/sisProEne.PNG" alt="space book" style="width:304px;height:288px">
+        </div>
+
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+          <h2>1. INTRODUCCIÓN A LA ENERGÍA SOLAR</h2>
+          <p>
+            La electricidad es una de las formas de energía más versátiles y que mejor se adaptan
+            a cada necesidad. Su utilización está tan extendida que difícilmente podría concebirse
+            una sociedad tecnológicamente avanzada que no hiciese uso de ella. <br>
+            Hoy día existen miles de aparatos que, bien en forma de corriente continua o de corriente
+            alterna, utilizan la electricidad como fuente de energía, y su uso ha provocado un
+            gran aumento de la demanda de consumo eléctrico. <br>
+            Este hecho ha propiciado la búsqueda de nuevas fuentes de energía y nuevos sistemas de
+            producción eléctrica, basados, fundamentalmente, en el uso de energías renovables. <br><br>
+            Los sistemas tradicionales de producción de electricidad:
+            <ul>
+              <li>
+                <b>Centrales Hidráulicas:</b> no se puede asegurar la producción estable de electricidad en estas centrales.
+              </li>
+              <li>
+                <b>Centrales Térmicas:</b> provocan una gran emisión de gases contaminantes de los combustibles fósiles.
+              </li>
+              <li>
+                <b>Centrales Nucleares:</b> tiene el problema de la eliminación de los residuos generados del uranio.
+              </li>
+            </ul>
+            <img src="img/ele/eneRenNor.PNG" alt="space book" style="width:308px;height:209px">
+            <p><b>Figura 1.1 Principales energías renovables y no renovables:</b> <br>
+              (a) Hidráulica, (b) Térmica, (c) Nuclear, (d) Eólica, (e) Solar Térmica, (f) Solar Fotovoltaica, (g) Biomasa</p>       
+            Como ya hemos comentado, la tendencia actual es la utilización de energías renovables.
+            Es aquí donde cobra importancia la energía solar. Varias son las formas de aprovechar
+            el sol para la producción de electricidad; se distingue entre: <br>  
+            <ul>
+              <li>
+                <b>Métodos Indirectos: </b>el sol se aprovecha para calentar un fluido (que puede ser agua,
+                sodio, sales fundidas...) y convertirlo en vapor, con el fin de producir electricidad
+                mediante el movimiento de un alternador. La producción de la electricidad se realiza
+                mediante un ciclo termodinámico convencional, como se haría en una central térmica
+                de combustible fósil. (Figura 1.2).
+              </li>
+              <li>
+                <b>Métodos Directos: </b>en ellos la luz del sol es convertida directamente a electricidad
+                mediante el uso de las células solares. Se distingue entre sistemas conectados a red
+                y sistemas aislados (Fig. 1.3).
+              </li>
+            </ul>
+            <b>Nos dedicaremos exclusivamente a la energía solar fotovoltaica.</b>           
+          </p>
+          <img src="img/ele/esqCon.PNG" alt="space book" style="width:311px;height:195px">
+          <p><b>Figura 1.2. Esquema de la constitución de una central térmica solar de torre central.</b>
+            Una vez que el fluido pasa por el motor de vapor, se enfría y es elevado (línea azul) hasta el receptor,
+            donde es calentado y enviado hacia abajo (línea roja), para volver a completar el ciclo.</p>
+          <img src="img/ele/sisFot.PNG" alt="space book" style="width:315px;height:150px">
+          <p><b>Figura 1.3. Sistema conectado a red (a) e instalación fotovoltaica autónoma (b).</b></p>
+        </div>
+
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+          <h2>2. CLASIFICACIÓN DE LAS INSTALACIONES SOLARES FOTOVOLTAICAS</h2>
+          <p>
+            La clasificación de las instalaciones solares fotovoltaicas (ISF) la podemos realizar en
+            función de la aplicación a la que están destinadas. Así, distinguiremos entre aplicaciones
+            autónomas y aplicaciones conectadas a la red.     
+          </p>        
+          <img src="img/ele/conDobSen.png" alt="space book" style="width:306px;height:213px">
+        </div>
+
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+          <h3>2.1 APLICACIONES AUTÓNOMAS</h3>
+          <p>
+            Producen electricidad sin ningún tipo de conexión con la red eléctrica, a fin de dotar de
+            este tipo de energía al lugar donde se encuentran ubicadas. Pueden distinguirse dos bloques:     
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <div class="col-md-6 text-center justify-content-center align-self-center">
+            <h1 style="color: rgb(11, 11, 140);"></h1>
+            
+            <a href="img/ele/ondasSalud.pdf" >
                 Ondas y Salud<br><br>
               </a>
-          </div>
-          <div class="col-md-6">
-            <img src="img/energia.jpg" alt="space book" style="width:342px;height:182px;"
-            class="img-fluid d-none d-sm-block">
-          </div>
         </div>
-      </div>
+        
+        <div class="col-md-6">
+            <img src="img/ele/ondSal.jpg" alt="space book" style="width:151px;height:175px;"
+            class="img-fluid d-none d-sm-block">  
+        </div>
+      
+      </div> 
     </div>      
-    </header>
+
+</header>
 
 </body>
